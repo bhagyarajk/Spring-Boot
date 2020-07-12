@@ -1,0 +1,19 @@
+package com.firstproj.keepitsimple;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Alien {
+	
+	Laptop lap;
+
+	public void code() {
+		// TODO Auto-generated method stub
+		lap.compile();
+		System.out.println("I am coding ...");
+		
+	}
+
+	
+
+}

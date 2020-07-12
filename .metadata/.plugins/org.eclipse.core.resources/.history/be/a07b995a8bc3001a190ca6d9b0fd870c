@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <!-- whats auto wiring : when ever you have same name,ref (inside the alien bean tag ) and the same id inside the bean tag of laptop
+    you can skip the line no. 13 in the configuration 
+    let me explain how this works 
+    1.auto wire gives you two options a.byName (means by property name ==> means the variable name) b.byType (by the type of variable) 
+  	2.byName : when you mention autowire="byName" on the bean definition what container will do is : it will check the user defined type variable inside the 
+  	the bean then it will search the 
+    4.    -->
+    
+    <bean id="alien" class="com.keepitsimple.Autowire.Alien" autowire="byName">
+   <!-- <property name="lap" ref="laptop"></property> -->
+   <property name="age" value="10"></property> 
+    
+    </bean>
+    <bean id ="Dell" class="com.keepitsimple.Autowire.Dell"></bean>
+    
+
+
+</beans>

@@ -1,0 +1,12 @@
+well initially we created a spring boot web app
+then we know that we will get the embeded web server for spring boot applications
+now we have creted a webapps folder under the src folder which is bellow maven dependencies
+in the webapps folder will create a jsp which serves as the home page in our case we have added some content to index.jsp
+now if you run the application as the spring boot application it will start your web server so localhost:8080 now serves for this spring application
+but till now we dont have the controller : controller is the one which accepts the requests from the client 
+okay and we learned one more thing in spring frame work we will have the front controller
+front controller will dispatch the requests to perticular controller
+front controller should be configured right : okay thats fine in this project becoz we will not have many controllers will learn that configuration later
+now just skip the conf of the front controller so just create a controller add the annotation above the class saying that this is the controller
+then map the requests based on the resources thats like if the client ask / call this controller if he asks /eat then call this controller etc thats called request mapping
+for request mapping use the 

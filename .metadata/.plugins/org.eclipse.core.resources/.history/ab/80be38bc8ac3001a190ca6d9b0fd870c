@@ -1,0 +1,15 @@
+package com.keepitsimple.Autowire;
+
+public class Alien {
+	private Computer computer;
+
+	public Computer getComputer() {
+		return computer;
+	}
+
+	public void setComputer(Computer computer) {
+		this.computer = computer;
+	}
+	
+
+}

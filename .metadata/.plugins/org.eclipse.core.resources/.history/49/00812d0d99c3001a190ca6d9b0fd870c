@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <!-- let me explain you something :
+    auto wire will only work when you have the the 
+    1. Now what will happen? : auto wire is written for alien been so container will check the secondary variables defined inside the alien been
+    2. in this case we have computer as the secondary variable
+    3. now auto wire we mentioned it as byType so container will check whether we have the objects in the memory with computer type
+    4.the answer is yes we have a dell bean which is basically of computer type only   
+    5. so it will copy the the address of the dell object and pass it to the setter method of the Alien class so that the computer variable in the
+    Alien class will now point the dell object in the memory so now you can use the computer to access the methods of Computer interface which are implemented
+    in the Dell class
+    6. if the container founds more than one objects of type Computer then it will through you the exception
+    
+    -->
+    
+    <bean id="alien" class="com.keepitsimple.Autowire.Alien" autowire="constructor">
+   <!-- <property name="lap" ref="laptop"></property> -->
+  
+    
+    </bean>
+    <bean id ="Dell" class="com.keepitsimple.Autowire.Dell"></bean>
+    
+
+
+</beans>

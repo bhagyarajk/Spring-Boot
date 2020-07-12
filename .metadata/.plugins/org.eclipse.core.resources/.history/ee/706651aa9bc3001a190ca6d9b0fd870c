@@ -1,0 +1,18 @@
+package com.keepitsimple.AutowirebyName;
+
+public class Alien {
+	private Laptop lap;
+
+	public Laptop getLap() {
+		return lap;
+	}
+
+	public void setLap(Laptop lap) {
+		this.lap = lap;
+	}
+
+
+	
+	
+
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <!-- Dependency injection : Inject an object with the variables inside the pojo class set 
+    1.  we can set the variables of the class either during the creation of the object (using constructor injection) or immediate after the creation of the object (using setter injection thats by calling the setter method)
+    2. in setter injection container sets the value of the variable by calling the setter method of the pojo by passing the value mentioned in the tag (here it will call the setAge becoz the property name mentioned in the tag is age) 
+    to set the value of age -->
+    <bean id="alien" class="com.keepitsimple.SetterInjectionforprimitivetype.Alien">
+    <property name="age" value="10"></property>
+    </bean>
+
+
+</beans>

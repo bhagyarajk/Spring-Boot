@@ -1,0 +1,12 @@
+package com.firstproj.keepitsimple;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HomeController {
+	public void userInputHandler()
+	{
+		
+	}
+
+}

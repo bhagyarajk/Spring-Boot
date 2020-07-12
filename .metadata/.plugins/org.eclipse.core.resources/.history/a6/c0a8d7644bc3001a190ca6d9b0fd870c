@@ -1,0 +1,5 @@
+package com.keepitsimple.Singletonvsprototype;
+
+public class Alien {
+
+}

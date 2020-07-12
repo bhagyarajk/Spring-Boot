@@ -1,0 +1,43 @@
+package com.keepitsimple.Setterinjectionforreftype;
+
+public class Alien {
+	private int age;
+	private Laptop laptop;
+	
+	public Alien() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public Laptop getLaptop() {
+		return laptop;
+	}
+
+	public void setLaptop(Laptop lap) {
+		
+		this.laptop = lap;
+		System.out.println(lap);
+	}
+	
+	
+	
+
+	
+	    public void code() {
+    	System.out.println("coding ....");
+    	
+    	
+    	
+    	
+    	
+    }
+	
+
+}

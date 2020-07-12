@@ -1,0 +1,19 @@
+1.well initially we created a spring boot web app
+2.then we know that we will get the embeded web server for spring boot applications
+3.now we have creted a webapps folder under the src==>main==>webapps folder which is bellow maven dependencies
+4.in the webapps folder will create a jsp which serves as the home page in our case we have added some content to index.jsp
+5.now if you run the application as the spring boot application it will start your web server so localhost:8080 now serves for this spring application
+6.but till now we dont have the controller : controller is the one which accepts the requests from the client 
+7.okay and we learned one more thing in spring frame work we will have the front controller
+8.front controller will dispatch the requests to perticular controller
+9.front controller should be configured right : okay thats fine in this project becoz we will not have many controllers will learn that configuration later
+10.now just skip the conf of the front controller so just create a controller add the annotation above the class saying that this is the controller
+11. then map the requests based on the resources thats like if the client ask "/" call this controller if he asks /eat then call this controller etc thats called request mapping
+for request mapping use the annotation @RequestMapping("/") above the method so that when the client requests for / internally the front controller(ie. request dispatcher) will call this method
+12. In the controller will write the welcome messege which will simply returns the jsp file hold on but incase of the servlets we used call the jsp by using 
+request dispatcher but here this controller is called by request dispatcher so its its job to call the index.jsp as well
+13.Now will chek whether will be able call the index.jsp okay will check now
+14.now if you request a the jsp file returned is getting downloaded so why?
+15.The answer is the embeded webser is not able to parse that jsp to a brower ie. client in our case
+16.to solve this we need a dependency called as the jasper(internally the jsp has to be converted into servlet you need the library jasper)
+17. so just add the jasper dependency so that it will parse the jsp

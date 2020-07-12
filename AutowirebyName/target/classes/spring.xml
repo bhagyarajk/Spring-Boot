@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <!-- now let me explain how this works
+    1. auto wire is written for the bean Alien so it will check the secondary variables in the bean
+    2. in this case its a lap variable of Laptop type
+    3. then it will check the heap memory for the object with ref as the lap 
+    4. if found then it will copy the address of the ref
+    5. for setter injection it will pass this adress to a setter so that the lap variable iside the Alien class
+    point to the object in the memory 
+    6.now you can access the Laptop methods using the lap variable inside the Alien class
+     -->
+    <bean id="alien" class="com.keepitsimple.AutowirebyName.Alien" autowire="byName">
+    
+ 
+    
+   <!-- <property name="lap" ref="laptop"></property> -->
+  
+    
+    </bean>
+    <bean id ="lap" class="com.keepitsimple.AutowirebyName.Laptop"></bean>
+    
+
+
+</beans>

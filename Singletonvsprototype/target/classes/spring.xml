@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+	 <!--this bellow scope will give you the different objects each time you request and its lazy loading comment out any one to work with them properly  --> 
+   <!-- <bean id="alien" class="com.keepitsimple.Singletonvsprototype.Alien" scope="prototype"></bean> --> 
+    <!--this bellow scope is by default early loading and the sigelton in nature (it will give the same object no matter how many times you ask it) -->
+    <bean id="alien" class="com.keepitsimple.Singletonvsprototype.Alien"> </bean>
+    
+
+</beans>

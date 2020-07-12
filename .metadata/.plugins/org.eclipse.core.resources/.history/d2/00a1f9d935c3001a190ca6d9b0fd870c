@@ -1,0 +1,10 @@
+package com.firstproj.keepitsimple;
+
+public class Alien {
+
+	public static void code() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
