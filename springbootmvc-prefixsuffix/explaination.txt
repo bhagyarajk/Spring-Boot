@@ -1,0 +1,24 @@
+In this project we will mainly learn how you can use the application.properties file
+1. lets say now we will put these jsp files under some other folder
+2. then the path you can give in the application.properties file
+3. and if you dont want to mention the extension of the view files then also you can make use of 
+this file as well 
+4. why you want to put the view files under any other folder ?
+ans: the ans is pretty straight the files under webapp folder are generally public 
+any body can access them without even calling the controller just mentioning the name of the file
+to avoid this generally web devs put these under the different folder called web-inf
+
+************************************************************************************
+One more thing will learn in this project 
+1. generally when you return a name of the jsp from the controller  what will happen ?
+ans : the ans is simple if the jsp expects any data to come from the controller then that will be sent out from the controller when you call the 
+controller it self examples : data from the session object, data from the ModelAndView
+2. by answering this question we can now understand about two more classes
+3. above we learned returning the ModelAndView object from the controller but what if we still want to return the string name of the jsp file ?
+ans : the ans is again simple for that you again have two options 
+1. you can make use of Model  object or
+2. you can make use of ModelMap object
+so you just need to add the sum object inside Model object and call the jsp just by returning the name of jsp as a string
+this will automatically send the sum object in background
+------------------------------------
+to conclude about the model and modelmap we will use these things when we just want to keep the return type of the method as string 

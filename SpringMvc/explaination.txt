@@ -1,0 +1,10 @@
+Here in this project we will learn everything which we did it with the help of spring boot mvc 
+thats we do the implementation in the spring mvc here so what are those things which you need to change ?
+1. as this is the normal maven project all the requests from the cient will first come to web.xml file 
+2. so to make it a spring mvc application you need to route them to front end controller first we already know front end controller is also known as dispatcher servlet
+3. wait in spring boot application we used to have the front end controller by default and no need to configure but we are now building a plain spring mvc right
+4. for that reason we even have to configure the dispatcher servlet as well
+5. so for that we created an xml file named dispatcher-servlet.xml the name dispatcher-servlet why becoz the servlet name you have given is dispatcher in web.xml
+6. then in the dispatcher-servlet.xml you need to tell that we are using annotations for our project 
+7. you also need to configure the configurations (which we made it in the application.properties file in case of springboot app) so we have created a bean 
+of viewresolver class and configured prefix and suffix.

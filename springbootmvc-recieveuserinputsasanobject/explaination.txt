@@ -1,0 +1,10 @@
+1. in this project we will learn instead of recieving the user parameters in the controller we will recieve the ready object 
+so how to do this the ans is " @ModelAttribute Classname variablename " using this as the method argument will give you the ready object 
+but the input names in the front end file (index.jsp in our case) and the variable name in the modelclass (Student class ) must be same so that 
+spring can perform dependency injection by the name of the variables by calling setters or something like that but should we need to remember all of these
+the ans is no no need to remeber just follow the uniform coding thats maintain the same variable name for same variable everywhere thats it
+2. one more thing we study in this project is about using the model attribute above the methods: when we will use it ?
+the ans is whenever we want any of the method to execute before request mapping can even happen at that time we will use this annotation over the method
+please check out the HomeController class for more detailed explaination
+
+ 
