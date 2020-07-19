@@ -20,13 +20,12 @@ public class HomeController {
 
 	/*
 	 * first method
-	 * 
-	 * @RequestMapping("/add") public String
-	 * userInputHandlerWithSession(HttpServletRequest request) {
-	 * System.out.println("calling the add method"); int firstNumber =
-	 * Integer.parseInt(request.getParameter("number1")); int secondNumber =
-	 * Integer.parseInt(request.getParameter("number2")); int sum = firstNumber +
-	 * secondNumber; // here we are creating the session object and adding the
+	 *  @RequestMapping("/add") 
+	 * public String userInputHandlerWithSession(HttpServletRequest request) {
+	 * System.out.println("calling the add method"); 
+	 * int firstNumber = Integer.parseInt(request.getParameter("number1")); 
+	 * int secondNumber = Integer.parseInt(request.getParameter("number2")); 
+	 * int sum = firstNumber + secondNumber; // here we are creating the session object and adding the
 	 * result into session object so that later the jsp can fetch using exp lang
 	 * HttpSession session = request.getSession(); session.setAttribute("sum", sum);
 	 * 

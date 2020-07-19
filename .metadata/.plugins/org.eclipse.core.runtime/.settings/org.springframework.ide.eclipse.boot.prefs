@@ -1,11 +1,12 @@
 eclipse.preferences.version=1
-org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=Firstproj
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=2
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=Springbootmvc-inputandprocessing
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=2.3.1.RELEASE
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Demo project for Spring Boot
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.keepitsimple
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=1.8
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
-org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=Firstproj
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=Springbootmvc-inputandprocessing
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.firstproj.keepitsimple
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN

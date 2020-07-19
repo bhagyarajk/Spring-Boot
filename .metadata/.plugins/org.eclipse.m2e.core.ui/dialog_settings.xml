@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\bhagyaraj\eclipse-workspace\springframework\Springmvc\src\main\webapp\WEB-INF\web.xml"/>
+			<item value="C:\Users\bhagyaraj\eclipse-workspace\springframework\AutowirebyName\pom.xml"/>
 			<item value="C:\Users\bhagyaraj\eclipse-workspace\springframework\Autowire\src\main\java\spring.xml"/>
 			<item value="C:\Users\bhagyaraj\eclipse-workspace\springframework\Springcontainer\src\main\java\com\keepitsimple\Springcontainer\App.java"/>
 			<item value="C:\Users\bhagyaraj\eclipse-workspace\springframework\Firstproj\src\main\java\com\firstproj\keepitsimple\FirstprojApplication.java"/>
@@ -28,23 +30,19 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.keepitsimple.AutowirebyName"/>
-			<item value="com.keepitsimple.Autowire"/>
-			<item value="com.keepitsimple.ConstructorInjection"/>
-			<item value="com.keepitsimple.Setterinjectionforreftype"/>
-			<item value="com.keepitsimple.SetterInjectionforprimitivetype"/>
-			<item value="com.keepitsimple.Singletonvsprototype"/>
+			<item value="com.keepitsimple.SpringMvc"/>
+			<item value="com.keepitsimple.PlainSpringMvc"/>
+			<item value="com.keepitsimple.SimpleSpringMvc"/>
+			<item value="com.keepitsimple.springmvc"/>
 		</list>
 		<list key="groupId">
 			<item value="com.keepitsimple"/>
 		</list>
 		<list key="artifactId">
-			<item value="AutowirebyName"/>
-			<item value="Autowire"/>
-			<item value="ConstructorInjection"/>
-			<item value="Setterinjectionforreftype"/>
-			<item value="SetterInjectionforprimitivetype"/>
-			<item value="Singletonvsprototype"/>
+			<item value="SpringMvc"/>
+			<item value="PlainSpringMvc"/>
+			<item value="SimpleSpringMvc"/>
+			<item value="springmvc"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -80,5 +78,22 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.RemoteArchetypeCatalogDialog">
+		<list key="catalogUrl">
+			<item value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		</list>
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>

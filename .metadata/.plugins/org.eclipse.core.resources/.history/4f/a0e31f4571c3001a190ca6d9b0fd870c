@@ -1,9 +1,0 @@
-package com.keepitsimple.Setterinjectionforreftype;
-
-public class Laptop {
-	public void Compile(){
-		System.out.println("code compiled ....");
-		
-	}
-
-}

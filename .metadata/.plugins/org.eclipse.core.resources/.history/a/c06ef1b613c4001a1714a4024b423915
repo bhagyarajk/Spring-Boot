@@ -1,5 +1,0 @@
-well initially we created a spring boot web app
-then we know that we will get the embeded web server for spring boot applications
-now we have creted a webapps folder under the src folder which is bellow maven dependencies
-in the webapps folder will create a jsp which serves as the home page in our case we have added some content to index.jsp
-
